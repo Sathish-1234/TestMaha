@@ -1,0 +1,191 @@
+.container-fluid {
+  background-color: white;
+}
+
+input.form-control {
+  border-radius: 0.25rem;
+  padding: 10px;
+}
+
+input.form-control:focus {
+  border-color: #28a745;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #00B04D;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+input::placeholder {
+  color: #aab7c4;
+}
+
+.img-fluid {
+  border-radius: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.text-muted {
+  font-size: 0.875rem;
+}
+
+/* Dashboard.css */
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+}
+
+.upload-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.files-list {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  font-size: 16px;
+}
+
+.btn-success {
+  font-size: 14px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./Image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+
+}
+
+.stats-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 420px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.logo-section .circle {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  
+}
+
+.logo-text {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.heart {
+  font-size: 10px;
+  position: absolute;
+  bottom: -12px;
+  right: 5px;
+  left: 100%;
+}
+
+.stats-card p {
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.stats div {
+  width: 48%;
+}
+
+.stats h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-text {
+  max-width: 600px;
+  color: #fff;
+}
+
+.main-text h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.main-text p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.cta-button {
+  background: #333;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cta-button:hover {
+  background: #555;
+}
+
+.bg-custom{
+  background-image: url('./Image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
